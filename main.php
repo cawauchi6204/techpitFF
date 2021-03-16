@@ -1,10 +1,11 @@
 <?php
 require_once './classes/Human.php';
 require_once './classes/Enemy.php';
+require_once './classes/Brave.php';
 
 // echo "処理のはじまりはじまり〜！\n\n";
 
-$tiida = new Human();
+$tiida = new Brave();
 $goblin = new Enemy();
 
 $tiida->name = "ティーダ";
